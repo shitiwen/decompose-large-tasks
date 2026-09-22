@@ -1,0 +1,4 @@
+interface:
+  display_name: "大任务拆解"
+  short_description: "把复杂目标拆成依赖明确、可验证、可回滚的小任务"
+  default_prompt: "使用 $decompose-large-tasks 分析这个大任务，只生成详细的任务拆解计划，不开始实施。"
